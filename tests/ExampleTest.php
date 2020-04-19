@@ -25,7 +25,7 @@ class ExampleTest extends TestCase
     {
         $this->assertCount(0, EmailLog::all());
 
-        Mail::to('martin.krisell@gmail.com')->send(new TestMailable);
+        Mail::to('martin.krisell@example.com')->send(new TestMailable);
 
         $this->assertCount(1, EmailLog::all());
         $event = EmailLog::first();

@@ -12,23 +12,9 @@ class LaravelEmailLoggerServiceProvider extends EventServiceProvider
         MessageSending::class => [LaravelEmailLogger::class],
     ];
 
-    /**
-     * Bootstrap the application services.
-     */
     public function boot()
     {
         parent::boot();
-        // dd("HERE");
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-    }
-
-    /**
-     * Register the application services.
-     */
-    public function register()
-    {
-        // $this->app->singleton('laravel-email-logger', function () {
-        //     return new LaravelEmailLogger;
-        // });
     }
 }

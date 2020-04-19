@@ -11,13 +11,10 @@ class TestMailable extends Mailable
 {
     use Queueable, SerializesModels;
 
-    /**
-     * Build the message.
-     *
-     * @return $this
-     */
     public function build()
     {
-        return $this->html('<h2>Email content. Good stuff.</h2>')->subject('Test mail subject');
+        return $this
+            ->html('<h2>Email content. Good stuff.</h2>')
+            ->subject('Test mail subject');
     }
 }
