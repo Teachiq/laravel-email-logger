@@ -1,9 +1,9 @@
 # Log sent emails to database
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/krisell/laravel-email-logger.svg?style=flat-square)](https://packagist.org/packages/krisell/laravel-email-logger)
-[![Build Status](https://img.shields.io/travis/krisell/laravel-email-logger/master.svg?style=flat-square)](https://travis-ci.org/krisell/laravel-email-logger)
-[![Quality Score](https://img.shields.io/scrutinizer/g/krisell/laravel-email-logger.svg?style=flat-square)](https://scrutinizer-ci.com/g/krisell/laravel-email-logger)
-[![Total Downloads](https://img.shields.io/packagist/dt/krisell/laravel-email-logger.svg?style=flat-square)](https://packagist.org/packages/krisell/laravel-email-logger)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/teachiq/laravel-email-logger.svg?style=flat-square)](https://packagist.org/packages/teachiq/laravel-email-logger)
+[![Build Status](https://img.shields.io/travis/teachiq/laravel-email-logger/master.svg?style=flat-square)](https://travis-ci.org/teachiq/laravel-email-logger)
+[![Quality Score](https://img.shields.io/scrutinizer/g/teachiq/laravel-email-logger.svg?style=flat-square)](https://scrutinizer-ci.com/g/teachiq/laravel-email-logger)
+[![Total Downloads](https://img.shields.io/packagist/dt/teachiq/laravel-email-logger.svg?style=flat-square)](https://packagist.org/packages/teachiq/laravel-email-logger)
 
 Log all emails your application sends, to track the most frequest emails, common recipients, to debug etc.
 
@@ -12,7 +12,7 @@ Log all emails your application sends, to track the most frequest emails, common
 You can install the package via composer:
 
 ```bash
-composer require krisell/laravel-email-logger
+composer require teachiq/laravel-email-logger
 ```
 
 ## Usage
