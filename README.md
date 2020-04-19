@@ -14,15 +14,17 @@ composer require teachiq/laravel-email-logger
 
 ## Usage
 
-``` php
-// Usage description here
-```
+The package auto-registers, all you have to do is run the migrations to add the necessary database table (`email_logs`).
 
 ### Testing
 
 ``` bash
 composer test
 ```
+
+### Roadmap
+ * Logging more interesting information (sunch as Mailable class, user, etc.)
+ * Adding a simple dashboard or API to fetch data, for instance most common mailable etc.
 
 ## Contributing
 
