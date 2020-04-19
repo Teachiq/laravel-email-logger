@@ -1,8 +1,6 @@
 # Log sent emails to database
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/teachiq/laravel-email-logger.svg?style=flat-square)](https://packagist.org/packages/teachiq/laravel-email-logger)
-[![Build Status](https://img.shields.io/travis/teachiq/laravel-email-logger/master.svg?style=flat-square)](https://travis-ci.org/teachiq/laravel-email-logger)
-[![Total Downloads](https://img.shields.io/packagist/dt/teachiq/laravel-email-logger.svg?style=flat-square)](https://packagist.org/packages/teachiq/laravel-email-logger)
 
 Log all emails your application sends, to track the most frequest emails, common recipients, to debug etc.
 
