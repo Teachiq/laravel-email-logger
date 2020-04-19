@@ -1,11 +1,11 @@
 {
-    "name": "krisell/laravel-email-logger",
+    "name": "teachiq/laravel-email-logger",
     "description": "Log sent emails to your database",
     "keywords": [
-        "krisell",
+        "teachiq",
         "laravel-email-logger"
     ],
-    "homepage": "https://github.com/krisell/laravel-email-logger",
+    "homepage": "https://github.com/teachiq/laravel-email-logger",
     "license": "MIT",
     "type": "library",
     "authors": [
