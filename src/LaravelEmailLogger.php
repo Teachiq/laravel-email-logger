@@ -8,7 +8,6 @@ class LaravelEmailLogger
     {
         EmailLog::create([
             'subject' => $event->message->getSubject(),
-            'body' => $event->message->getBody(),
         ]);
     }
 }
