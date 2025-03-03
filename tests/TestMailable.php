@@ -5,7 +5,6 @@ namespace Krisell\LaravelEmailLogger\Tests;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
-use Illuminate\Contracts\Queue\ShouldQueue;
 
 class TestMailable extends Mailable
 {

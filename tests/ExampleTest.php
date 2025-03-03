@@ -2,14 +2,13 @@
 
 namespace Krisell\LaravelEmailLogger\Tests;
 
-use Carbon\Carbon;
-use Illuminate\Foundation\Auth\User;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Support\Facades\Mail;
-use Krisell\LaravelEmailLogger\EmailLog;
-use Krisell\LaravelEmailLogger\LaravelEmailLoggerServiceProvider;
-use Krisell\LaravelEmailLogger\Tests\TestMailable;
 use Orchestra\Testbench\TestCase;
+use Illuminate\Support\Facades\Mail;
+use PHPUnit\Framework\Attributes\Test;
+use Krisell\LaravelEmailLogger\EmailLog;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Krisell\LaravelEmailLogger\Tests\TestMailable;
+use Krisell\LaravelEmailLogger\LaravelEmailLoggerServiceProvider;
 
 class ExampleTest extends TestCase
 {
@@ -20,7 +19,7 @@ class ExampleTest extends TestCase
         return [LaravelEmailLoggerServiceProvider::class];
     }
 
-    /** @test */
+    #[Test]
     public function a_test()
     {
         $this->assertCount(0, EmailLog::all());
